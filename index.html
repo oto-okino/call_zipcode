@@ -10,11 +10,11 @@
     <section>
         <h1>住所入力フォーム</h1>
         <form action name="form_address">
-            <legend name="zipcode">郵便番号</legend>
-            <input type="text" name="zipcode" placeholder="半角、ハイフンなし"> 
-            <input type="button" value="郵便番号検索" name="api_zipcode" onclick="">
+            <legend>郵便番号</legend>
+            <input name="zipcode" type="text" placeholder="半角、ハイフンなし"> 
+            <input name="api_zipcode" type="button" value="郵便番号検索" class="btn">
             <legend>都道府県</legend>
-            <select name="adrs1_prefcode" id="prefecture ">
+            <select name="adrs1_prefcode">
                 <option value="">都道府県</option>
                 <option value="1">北海道</option>
                 <option value="2">青森県</option>
@@ -65,14 +65,14 @@
                 <option value="47">沖縄県</option>
             </select>
             <legend>市区町村</legend>
-            <input type="text" name="adrs2_adrs3">
+            <input name="adrs2_adrs3" type="text">
             <legend>市区町村ｶﾅ</legend>
-            <input type="text" name="adrs2_adrs3_kana">
+            <input name="adrs2_adrs3_kana" type="text">
             <legend>番地</legend>
-            <input type="text" name="adrs_num">
+            <input name="adrs_num" type="text">
             <legend>ビル名・号室</legend>
-            <input type="text" name="adrs_brdg_room">
-            <input type="submit" value="送信" class="submit btn">
+            <input name="adrs_brdg_room" type="text">
+            <input name="submit" type="submit" value="送信" class="btn" id="submit">
         </form>
     </section>
     <script src="script.js"></script>
