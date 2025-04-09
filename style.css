@@ -27,10 +27,11 @@ form > select{
 }
 
 form > .btn {
-    width: 8rem;
+   min-width: 5rem;
 }
 
-.submit{
+#submit{
+    width: 2rem;
     margin: 3rem 0 ;
     display: block;
 }
