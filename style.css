@@ -1,0 +1,36 @@
+@charset "UTF-8";
+*{
+    font-size: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form > legend{
+    margin: 1rem 0 0.2rem;
+}
+form > input{
+    field-sizing: content;
+    min-width: 10rem;
+}
+
+form > input::placeholder{
+    color: #aaa;
+    font-size: 0.8rem;
+}
+
+form > select{
+    width: 10rem;
+}
+
+form > .btn {
+    width: 8rem;
+}
+
+.submit{
+    margin: 3rem 0 ;
+    display: block;
+}
