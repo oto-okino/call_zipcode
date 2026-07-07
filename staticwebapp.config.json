@@ -26,6 +26,12 @@
       "allowedRoles": [
         "reader"
       ]
+    },
+    {
+      "route": "/index3",
+      "allowedRoles": [
+        "authenticated"
+      ]
     }
   ]
 }
