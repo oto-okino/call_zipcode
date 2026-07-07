@@ -1,1 +1,13 @@
-{}
+{
+  "routes": [
+    {
+      "route": "/",
+      "methods": [
+        "get"
+      ],
+      "allowedRoles": [
+        "anonymous"
+      ]
+    }
+  ]
+}
