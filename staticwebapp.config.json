@@ -8,6 +8,12 @@
       "allowedRoles": [
         "anonymous"
       ]
+    },
+    {
+      "route": "/index.html",
+      "allowedRoles": [
+        "anonymous"
+      ]
     }
   ]
 }
