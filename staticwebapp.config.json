@@ -20,6 +20,12 @@
       "allowedRoles": [
         "reader"
       ]
+    },
+    {
+      "route": "/index2",
+      "allowedRoles": [
+        "reader"
+      ]
     }
   ]
 }
